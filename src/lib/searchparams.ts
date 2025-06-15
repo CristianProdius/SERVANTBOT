@@ -10,7 +10,10 @@ export const searchParams = {
   perPage: parseAsInteger.withDefault(10),
   name: parseAsString,
   gender: parseAsString,
-  category: parseAsString
+  category: parseAsString,
+  // Add ServantBot specific params
+  status: parseAsString,
+  facility: parseAsString
   // advanced filter
   // filters: getFiltersStateParser().withDefault([]),
   // joinOperator: parseAsStringEnum(['and', 'or']).withDefault('and')

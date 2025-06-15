@@ -54,9 +54,10 @@ export const company = {
 };
 
 const tenants = [
-  { id: '1', name: 'Acme Inc' },
-  { id: '2', name: 'Beta Corp' },
-  { id: '3', name: 'Gamma Ltd' }
+  { id: '1', name: 'Cristian Prodius' },
+  { id: '2', name: 'Pavel Tapu' },
+  { id: '3', name: 'Vlad Ungureanu' },
+  { id: '4', name: 'Andrian Copta' }
 ];
 
 export default function AppSidebar() {
